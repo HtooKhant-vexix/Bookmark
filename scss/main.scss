@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+$font-family-sans-serif: 'Rubik', sans-serif;
+$success: hsl(0, 94%, 66%);
+$nav-link-color: black;
+$nav-link-hover-color: hsl(0, 94%, 66%);
+$navbar-nav-link-padding-x: 25px;
+$primary: hsl(0, 94%, 66%);
+$btn-border-width: 2px;
+$secondary: hsl(231, 69%, 60%);
+$btn-padding-y: 15px;
+$btn-padding-x: 20px;
+$danger: hsl(229, 31%, 21%);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+.fs-18{
+  font-size: 18px;
+}
+.sec-btn{
+  background-color: #fafafa;
+  color: black;
+}
+.w-40{
+  width: 40%;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.nav-pills{
+  .nav-link{
+    padding: 10px 50px;
+  }
+}
+.mt-200 {
+   margin-top: 150px;
+ }
+.mt-400 {
+  margin-top: 250px;
+}
+.mb-400 {
+  margin-bottom: 100px;
+}
+.mt-50{
+  margin-top: 50px;
+}
+.zi{
+  z-index: 10;
+}
+.d-flex{
+  i:hover{
+    color: $success;
+  }
+}
+.d-flex{
+  color: white;
+}
+.f{
+  li{
+    a:hover{
+      color: $success;
+    }
+  }
+}
+.f{
+  li{
+    a{
+      color: white;
+    }
+  }
+}
